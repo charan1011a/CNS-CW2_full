@@ -1,0 +1,20 @@
+[ req ]
+default_bits = 2048
+prompt = no
+default_md = sha256
+req_extensions = req_ext
+distinguished_name = dn
+
+[ dn ]
+C=UK
+ST=Scotland
+L=Edinburgh
+O=Heriot watt university
+CN = CNS
+
+[ req_ext ]
+subjectAltName = Charan Ananad
+
+[ alt_names ]
+DNS.1 = x509cert
+
